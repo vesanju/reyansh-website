@@ -13,7 +13,7 @@ section{padding:90px 0;border-top:1px solid #202638}h2{font-size:44px;letter-spa
 .place:before{content:"";position:absolute;width:110px;height:110px;border-radius:50%;right:-35px;top:-35px;background:radial-gradient(circle,#67e8f933,transparent 68%)}
 .place .pin{font-size:25px}.place h3{margin:24px 0 6px;font-size:20px}.place p{font-size:13px;margin:0;color:#7f8ba1}
 .add-place{border-style:dashed;display:flex;align-items:center;justify-content:center;text-align:center;color:#9aa5ba}
-@media(max-width:760px){.travel-grid{grid-template-columns:1fr 1fr}}
+.continent-group{margin-top:38px}.continent-title{display:flex;align-items:center;gap:12px;margin:0 0 16px;font-size:28px}.continent-title span{font-size:30px}.continent-group .travel-grid{margin-bottom:12px}@media(max-width:760px){.travel-grid{grid-template-columns:1fr 1fr}.continent-title{font-size:24px}}
 .oregon-feature{margin:34px 0 28px;padding:24px;border:1px solid #273149;border-radius:28px;background:linear-gradient(145deg,#0e1421,#0a0e17)}.oregon-head{display:flex;justify-content:space-between;gap:20px;align-items:end;margin-bottom:20px}.oregon-head h3{font-size:30px;margin:5px 0}.oregon-gallery{display:grid;grid-template-columns:1.35fr .8fr .8fr;gap:12px;height:430px}.oregon-shot{width:100%;height:100%;object-fit:cover;border-radius:18px;border:1px solid #2b354b;transition:.25s}.oregon-shot:hover{transform:translateY(-4px)}@media(max-width:760px){.oregon-gallery{grid-template-columns:1fr;height:auto}.oregon-shot{height:330px}}
 .travel-intro-box{margin:18px 0 30px;padding:24px 26px;border:1px dashed #3a4763;border-radius:22px;background:#0d121e}
 .travel-intro-box h3{margin:0 0 8px;font-size:20px}.travel-intro-box p{margin:0;font-size:16px}
@@ -34,19 +34,36 @@ section{padding:90px 0;border-top:1px solid #202638}h2{font-size:44px;letter-spa
   <h3>My Travel Story ✈️</h3>
   <p>Write something here about why you enjoy traveling, your favorite memories, or the places you hope to visit next.</p>
 </div>
-<div class="oregon-feature"><div class="oregon-head"><div><small>OREGON · JULY 2026</small><h3>Pacific Northwest Adventure</h3></div><p>Ocean views, Vista House & scenic viewpoints.</p></div><div class="oregon-gallery"><img class="oregon-shot" src="photo-3.jpg" alt="Oregon coast"><img class="oregon-shot" src="photo-4.jpg" alt="Vista House"><img class="oregon-shot" src="photo-5.jpg" alt="Oregon scenic viewpoint"></div></div><div class="travel-grid">
+<div class="oregon-feature"><div class="oregon-head"><div><small>OREGON · JULY 2026</small><h3>Pacific Northwest Adventure</h3></div><p>Ocean views, Vista House & scenic viewpoints.</p></div><div class="oregon-gallery"><img class="oregon-shot" src="photo-3.jpg" alt="Oregon coast"><img class="oregon-shot" src="photo-4.jpg" alt="Vista House"><img class="oregon-shot" src="photo-5.jpg" alt="Oregon scenic viewpoint"></div></div><div class="continent-group">
+  <h3 class="continent-title"><span>🌎</span> North America</h3>
+  <div class="travel-grid">
   <div class="place"><div class="pin">📍</div><h3>California</h3><p>USA · July–August 2026</p><div class="place-note">A beautiful California coastal memory with Reyansh.</div><img class="place-photo" src="california-july-august-2026.png" alt="Reyansh at a scenic California coastal viewpoint in July–August 2026"></div>
   <div class="place"><div class="pin">📍</div><h3>Oregon</h3><p>USA · July 2026 · Gallery added ✓</p><div class="place-note">✏️ Write a short memory or description about this trip...</div><div class="photo-placeholder">📷 Add trip photo(s) here</div></div>
-  <div class="place"><div class="pin">📍</div><h3>Phoenix</h3><p>Arizona · Photo coming soon</p><div class="place-note">✏️ Write a short memory or description about this trip...</div><div class="photo-placeholder">📷 Add trip photo(s) here</div></div>
-  <div class="place"><div class="pin">📍</div><h3>Scotland</h3><p>United Kingdom · Photo coming soon</p><div class="place-note">✏️ Write a short memory or description about this trip...</div><div class="photo-placeholder">📷 Add trip photo(s) here</div></div>
-  <div class="place"><div class="pin">📍</div><h3>India</h3><p>Photo coming soon</p><div class="place-note">✏️ Write a short memory or description about this trip...</div><div class="photo-placeholder">📷 Add trip photo(s) here</div></div>
+  <div class="place"><div class="pin">📍</div><h3>Phoenix</h3><p>Arizona, USA · Photo coming soon</p><div class="place-note">✏️ Write a short memory or description about this trip...</div><div class="photo-placeholder">📷 Add trip photo(s) here</div></div>
   <div class="place"><div class="pin">📍</div><h3>Colorado</h3><p>USA · Photo coming soon</p><div class="place-note">✏️ Write a short memory or description about this trip...</div><div class="photo-placeholder">📷 Add trip photo(s) here</div></div>
-  <div class="place"><div class="pin">📍</div><h3>San Diego</h3><p>California · Photo coming soon</p><div class="place-note">✏️ Write a short memory or description about this trip...</div><div class="photo-placeholder">📷 Add trip photo(s) here</div></div>
+  <div class="place"><div class="pin">📍</div><h3>San Diego</h3><p>California, USA · Photo coming soon</p><div class="place-note">✏️ Write a short memory or description about this trip...</div><div class="photo-placeholder">📷 Add trip photo(s) here</div></div>
   <div class="place"><div class="pin">📍</div><h3>New York</h3><p>USA · Photo coming soon</p><div class="place-note">✏️ Write a short memory or description about this trip...</div><div class="photo-placeholder">📷 Add trip photo(s) here</div></div>
   <div class="place"><div class="pin">📍</div><h3>New Jersey</h3><p>USA · Photo coming soon</p><div class="place-note">✏️ Write a short memory or description about this trip...</div><div class="photo-placeholder">📷 Add trip photo(s) here</div></div>
-  <div class="place"><div class="pin">📍</div><h3>Boston</h3><p>Massachusetts · Photo coming soon</p><div class="place-note">✏️ Write a short memory or description about this trip...</div><div class="photo-placeholder">📷 Add trip photo(s) here</div></div>
+  <div class="place"><div class="pin">📍</div><h3>Boston</h3><p>Massachusetts, USA · Photo coming soon</p><div class="place-note">✏️ Write a short memory or description about this trip...</div><div class="photo-placeholder">📷 Add trip photo(s) here</div></div>
   <div class="place"><div class="pin">📍</div><h3>Utah</h3><p>USA · Photo coming soon</p><div class="place-note">✏️ Write a short memory or description about this trip...</div><div class="photo-placeholder">📷 Add trip photo(s) here</div></div>
-  <div class="place add-place"><div><div style="font-size:28px">＋</div><strong>More adventures coming</strong><p>I'll add more places later.</p></div></div>
+  </div>
+</div>
+<div class="continent-group">
+  <h3 class="continent-title"><span>🌍</span> Europe</h3>
+  <div class="travel-grid">
+  <div class="place"><div class="pin">📍</div><h3>Scotland</h3><p>United Kingdom · Photo coming soon</p><div class="place-note">✏️ Write a short memory or description about this trip...</div><div class="photo-placeholder">📷 Add trip photo(s) here</div></div>
+  </div>
+</div>
+<div class="continent-group">
+  <h3 class="continent-title"><span>🌏</span> Asia</h3>
+  <div class="travel-grid">
+  <div class="place"><div class="pin">📍</div><h3>India</h3><p>Asia · Photo coming soon</p><div class="place-note">✏️ Write a short memory or description about this trip...</div><div class="photo-placeholder">📷 Add trip photo(s) here</div></div>
+  </div>
+</div>
+<div class="continent-group">
+  <div class="travel-grid">
+    <div class="place add-place"><div><div style="font-size:28px">＋</div><strong>More adventures coming</strong><p>I'll add more places later.</p></div></div>
+  </div>
 </div>
 </section>
 <section><small>04 / NEXT</small><h2>Keep learning. Keep moving.</h2><p>This site will grow with my projects, races, adventures and the new things I learn.</p></section>
